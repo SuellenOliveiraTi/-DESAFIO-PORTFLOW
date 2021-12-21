@@ -35,9 +35,7 @@ h1{
     height: 80hv;
     margin-right:  1rem;
     margin-top: 2rem;
-    
-    
-    
+   
     text-decoration: none;
     color: rgb(115, 115, 126);/*cor das letra do menu*/
     
@@ -93,7 +91,6 @@ h6{
 .container-galeria{
     max-width: 1366px;
     margin: 0 auto;
-    
   }
 
   .box-produtos{
@@ -105,8 +102,7 @@ h6{
 
   .box-produtos img{
       padding: 0.9rem;
-      width: 20vw;
-      
+      width: 20vw;  
   }
 
   footer{
@@ -126,19 +122,21 @@ h6{
   }
 
   .redes img:hover{
-      cursor: pointer;
-
+      cursor: pointer; 
   }
 
 h3{
     display: flex;
-    padding-left: ;
-    justify-content: center;
-    
-    
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50rem;
+    max-width: 1rem;
+    margin-top: 5vh;   
 }
 
-p{
-    
-    
+p{  
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding-left: 3rem;
 }
